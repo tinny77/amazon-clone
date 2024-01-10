@@ -1,0 +1,1160 @@
+[debug] [2024-01-10T14:24:30.799Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T14:24:30.803Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2024-01-10T14:24:30.804Z] CLI Version:   13.0.2
+[debug] [2024-01-10T14:24:30.804Z] Platform:      darwin
+[debug] [2024-01-10T14:24:30.804Z] Node Version:  v21.5.0
+[debug] [2024-01-10T14:24:30.806Z] Time:          Wed Jan 10 2024 15:24:30 GMT+0100 (Ora standard dell’Europa centrale)
+[debug] [2024-01-10T14:24:30.806Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T14:24:30.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T14:24:30.886Z] > authorizing via signed-in user (tinny77@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2024-01-10T14:24:31.877Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-10T14:24:31.878Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-10T14:24:31.878Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-01-10T14:24:31.889Z] [hub] writing locator at /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/hub-clone-6fc97.json
+[debug] [2024-01-10T14:24:32.396Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-10T14:24:32.396Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-10T14:24:32.397Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2024-01-10T14:24:32.398Z] defaultcredentials: writing to file /Users/filippotinnirello/.config/firebase/tinny77_gmail_com_application_default_credentials.json
+[debug] [2024-01-10T14:24:32.399Z] Setting GAC to /Users/filippotinnirello/.config/firebase/tinny77_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/filippotinnirello/.config/firebase/tinny77_gmail_com_application_default_credentials.json"}}
+[debug] [2024-01-10T14:24:32.401Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97/adminSdkConfig [none]
+[debug] [2024-01-10T14:24:32.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97/adminSdkConfig 200
+[debug] [2024-01-10T14:24:32.816Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97/adminSdkConfig {"projectId":"clone-6fc97","storageBucket":"clone-6fc97.appspot.com"}
+[debug] [2024-01-10T14:24:32.836Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-6fc97/sites 
+[debug] [2024-01-10T14:24:33.807Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-6fc97/sites 200
+[debug] [2024-01-10T14:24:33.807Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-6fc97/sites {"sites":[{"name":"projects/clone-6fc97/sites/clone-6fc97","defaultUrl":"https://clone-6fc97.web.app","appId":"1:959340987247:web:b22269853648f13cd85e9a","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-10T14:24:33.807Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97/webApps/1:959340987247:web:b22269853648f13cd85e9a/config [none]
+[debug] [2024-01-10T14:24:34.942Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97/webApps/1:959340987247:web:b22269853648f13cd85e9a/config 200
+[debug] [2024-01-10T14:24:34.942Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97/webApps/1:959340987247:web:b22269853648f13cd85e9a/config {"projectId":"clone-6fc97","appId":"1:959340987247:web:b22269853648f13cd85e9a","storageBucket":"clone-6fc97.appspot.com","apiKey":"AIzaSyBK-HI2cSHqOJjdIQZRMbUJQf-fE2Ze9Q4","authDomain":"clone-6fc97.firebaseapp.com","messagingSenderId":"959340987247"}
+[debug] [2024-01-10T14:24:34.953Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97 [none]
+[debug] [2024-01-10T14:24:35.220Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97 200
+[debug] [2024-01-10T14:24:35.220Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-6fc97 {"projectId":"clone-6fc97","projectNumber":"959340987247","displayName":"amazon-clone","name":"projects/clone-6fc97","resources":{"hostingSite":"clone-6fc97"},"state":"ACTIVE","etag":"1_b532f3d7-cff1-4d45-81e3-abdf87485f6f"}
+[info] i  hosting[clone-6fc97]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting[clone-6fc97]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-01-10T14:24:35.351Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-01-10T14:24:35.352Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-01-10T14:24:35.352Z] Starting Emulator UI with command {"binary":"node","args":["/Users/filippotinnirello/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/filippotinnirello/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-01-10T14:24:35.493Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-01-10T14:24:35.493Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "/Users/filippotinnirello/Sites/amazon-clone/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/filippotinnirello/Sites/amazon-clone/functions\" for Cloud Functions..."}}
+[debug] [2024-01-10T14:24:35.612Z] Validating nodejs source
+[debug] [2024-01-10T14:24:36.539Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-10T14:24:36.540Z] Building nodejs source
+[debug] [2024-01-10T14:24:36.540Z] Failed to find version of module node: reached end of search path /Users/filippotinnirello/Sites/amazon-clone/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-10T14:24:36.543Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-10T14:24:36.550Z] Found firebase-functions binary at '/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8614
+
+[error] ReferenceError: functions is not defined
+    at Object.<anonymous> (/Users/filippotinnirello/Sites/amazon-clone/functions/index.js:38:15)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1234:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2024-01-10T14:24:37.074Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: functions is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-01-10T14:26:10.479Z] File /Users/filippotinnirello/Sites/amazon-clone/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/filippotinnirello/Sites/amazon-clone/functions/index.js changed, reloading triggers"}}
+[debug] [2024-01-10T14:26:11.480Z] Validating nodejs source
+[debug] [2024-01-10T14:26:12.414Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-10T14:26:12.414Z] Building nodejs source
+[debug] [2024-01-10T14:26:12.415Z] Failed to find version of module node: reached end of search path /Users/filippotinnirello/Sites/amazon-clone/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-10T14:26:12.416Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-10T14:26:12.418Z] Found firebase-functions binary at '/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8148
+
+[error] ReferenceError: functions is not defined
+    at Object.<anonymous> (/Users/filippotinnirello/Sites/amazon-clone/functions/index.js:38:15)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Module.require (node:internal/modules/cjs/loader:1234:19)
+    at require (node:internal/modules/helpers:176:18)
+    at loadModule (/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/runtime/loader.js:40:16)
+    at loadStack (/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/runtime/loader.js:93:23)
+    at /Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/bin/firebase-functions.js:56:56
+
+[debug] [2024-01-10T14:26:12.908Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: functions is not defined
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-01-10T14:26:56.724Z] File /Users/filippotinnirello/Sites/amazon-clone/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/filippotinnirello/Sites/amazon-clone/functions/index.js changed, reloading triggers"}}
+[debug] [2024-01-10T14:26:57.726Z] Validating nodejs source
+[debug] [2024-01-10T14:26:58.498Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-10T14:26:58.498Z] Building nodejs source
+[debug] [2024-01-10T14:26:58.498Z] Failed to find version of module node: reached end of search path /Users/filippotinnirello/Sites/amazon-clone/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-10T14:26:58.499Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-10T14:26:58.500Z] Found firebase-functions binary at '/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8856
+
+[debug] [2024-01-10T14:26:58.998Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] ✔  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/clone-6fc97/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/clone-6fc97/us-central1/api)."}}
+[debug] [2024-01-10T14:27:20.510Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api-2024-01-10T14:27:20.510Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:27:20.511Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api-2024-01-10T14:27:20.510Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:27:20.511Z] Accepted request GET /clone-6fc97/us-central1/api --> us-central1-api
+[debug] [2024-01-10T14:27:20.512Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:27:20.512Z] [functions] Got req.url=/clone-6fc97/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api, mapping to path=/"}}
+[debug] [2024-01-10T14:27:20.519Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2024-01-10T14:27:20.519Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[info] >  (node:49581) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead. {"user":"(node:49581) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:49581) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead."}}
+[info] >  (Use `node --trace-deprecation ...` to show where the warning was created) {"user":"(Use `node --trace-deprecation ...` to show where the warning was created)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (Use `node --trace-deprecation ...` to show where the warning was created)"}}
+[debug] [2024-01-10T14:27:21.863Z] [runtime-status] [49581] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-01-10T14:27:21.863Z] [runtime-status] [49581] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:27:21.864Z] [runtime-status] [49581] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-01-10T14:27:21.864Z] [runtime-status] [49581] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:27:22.017Z] [runtime-status] [49581] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-01-10T14:27:22.018Z] [runtime-status] [49581] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2024-01-10T14:27:22.018Z] [runtime-status] [49581] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:27:22.019Z] [runtime-status] [49581] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-01-10T14:27:22.027Z] [runtime-status] [49581] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:27:22.028Z] [runtime-status] [49581] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-01-10T14:27:22.127Z] [runtime-status] [49581] Functions runtime initialized. {"cwd":"/Users/filippotinnirello/Sites/amazon-clone/functions","node_version":"21.5.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Functions runtime initialized. {\"cwd\":\"/Users/filippotinnirello/Sites/amazon-clone/functions\",\"node_version\":\"21.5.0\"}"}}
+[debug] [2024-01-10T14:27:22.128Z] [runtime-status] [49581] Listening to port: /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/fire_emu_56e436e435066e82.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49581] Listening to port: /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/fire_emu_56e436e435066e82.sock"}}
+[debug] [2024-01-10T14:27:22.141Z] [worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: IDLE"}}
+[debug] [2024-01-10T14:27:22.141Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:27:22.142Z] [worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: BUSY"}}
+[debug] [2024-01-10T14:27:22.147Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 6.098907ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 6.098907ms"}}
+[debug] [2024-01-10T14:27:22.148Z] [worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: IDLE"}}
+[debug] [2024-01-10T14:27:22.148Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:27:22.148Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:27:22.148Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:27:22.982Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2024-01-10T14:36:32.134Z] File /Users/filippotinnirello/Sites/amazon-clone/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/filippotinnirello/Sites/amazon-clone/functions/index.js changed, reloading triggers"}}
+[debug] [2024-01-10T14:36:33.153Z] Validating nodejs source
+[debug] [2024-01-10T14:36:34.976Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-01-10T14:36:34.976Z] Building nodejs source
+[debug] [2024-01-10T14:36:34.976Z] Failed to find version of module node: reached end of search path /Users/filippotinnirello/Sites/amazon-clone/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "18" doesn't match your global version "21". Using node@21 from host. 
+[debug] [2024-01-10T14:36:34.978Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-10T14:36:34.985Z] Found firebase-functions binary at '/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8575
+
+[debug] [2024-01-10T14:36:35.972Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2024-01-10T14:36:40.995Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2024-01-10T14:36:40.995Z] [worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: FINISHING"}}
+[debug] [2024-01-10T14:36:41.003Z] [worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: exited"}}
+[debug] [2024-01-10T14:36:41.003Z] [worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f3c48407-ea77-413f-a9ca-e1f9dbd28d23]: FINISHED"}}
+[debug] [2024-01-10T14:43:36.673Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:36.673Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:43:36.674Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:36.673Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:43:36.674Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:43:36.676Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:43:36.678Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:43:36.678Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2024-01-10T14:43:36.688Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2024-01-10T14:43:36.689Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[info] >  (node:49723) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead. {"user":"(node:49723) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:49723) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead."}}
+[info] >  (Use `node --trace-deprecation ...` to show where the warning was created) {"user":"(Use `node --trace-deprecation ...` to show where the warning was created)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (Use `node --trace-deprecation ...` to show where the warning was created)"}}
+[debug] [2024-01-10T14:43:38.523Z] [runtime-status] [49723] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-01-10T14:43:38.524Z] [runtime-status] [49723] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:38.525Z] [runtime-status] [49723] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-01-10T14:43:38.525Z] [runtime-status] [49723] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:38.899Z] [runtime-status] [49723] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-01-10T14:43:38.899Z] [runtime-status] [49723] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2024-01-10T14:43:38.899Z] [runtime-status] [49723] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:38.900Z] [runtime-status] [49723] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-01-10T14:43:38.903Z] [runtime-status] [49723] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:38.904Z] [runtime-status] [49723] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-01-10T14:43:39.123Z] [runtime-status] [49723] Functions runtime initialized. {"cwd":"/Users/filippotinnirello/Sites/amazon-clone/functions","node_version":"21.5.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Functions runtime initialized. {\"cwd\":\"/Users/filippotinnirello/Sites/amazon-clone/functions\",\"node_version\":\"21.5.0\"}"}}
+[debug] [2024-01-10T14:43:39.124Z] [runtime-status] [49723] Listening to port: /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/fire_emu_47921bb776de2995.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49723] Listening to port: /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/fire_emu_47921bb776de2995.sock"}}
+[debug] [2024-01-10T14:43:39.221Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:43:39.221Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:43:39.221Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:43:40.002Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 780.599405ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 780.599405ms"}}
+[debug] [2024-01-10T14:43:40.002Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:43:40.002Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:43:40.002Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:43:40.002Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:43:42.697Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.696Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:43:42.697Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.696Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:43:42.697Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:43:42.697Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:43:42.697Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:43:42.698Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:43:42.700Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[debug] [2024-01-10T14:43:42.701Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.701Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.696Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:43:42.705Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.696Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.701Z"],"workRunningCount":2}
+[debug] [2024-01-10T14:43:42.705Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:43:42.705Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:43:42.706Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:43:42.718Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2024-01-10T14:43:42.718Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:43:43.049Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 349.895988ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 349.895988ms"}}
+[debug] [2024-01-10T14:43:43.050Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:43:43.050Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:43:43.050Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:43:43.054Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:43:42.701Z"],"workRunningCount":1}
+[info] >  (node:49733) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead. {"user":"(node:49733) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:49733) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead."}}
+[info] >  (Use `node --trace-deprecation ...` to show where the warning was created) {"user":"(Use `node --trace-deprecation ...` to show where the warning was created)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m (Use `node --trace-deprecation ...` to show where the warning was created)"}}
+[debug] [2024-01-10T14:43:45.428Z] [runtime-status] [49733] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-01-10T14:43:45.430Z] [runtime-status] [49733] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:45.430Z] [runtime-status] [49733] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-01-10T14:43:45.432Z] [runtime-status] [49733] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:45.811Z] [runtime-status] [49733] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-01-10T14:43:45.811Z] [runtime-status] [49733] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2024-01-10T14:43:45.812Z] [runtime-status] [49733] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:45.813Z] [runtime-status] [49733] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-01-10T14:43:45.816Z] [runtime-status] [49733] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-01-10T14:43:45.817Z] [runtime-status] [49733] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/filippotinnirello/Sites/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-01-10T14:43:46.028Z] [runtime-status] [49733] Functions runtime initialized. {"cwd":"/Users/filippotinnirello/Sites/amazon-clone/functions","node_version":"21.5.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Functions runtime initialized. {\"cwd\":\"/Users/filippotinnirello/Sites/amazon-clone/functions\",\"node_version\":\"21.5.0\"}"}}
+[debug] [2024-01-10T14:43:46.028Z] [runtime-status] [49733] Listening to port: /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/fire_emu_6423b913b39c79a4.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [49733] Listening to port: /var/folders/fw/f7mmkg252fvcycmmnvfp2ng00000gn/T/fire_emu_6423b913b39c79a4.sock"}}
+[debug] [2024-01-10T14:43:46.064Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T14:43:46.064Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:43:46.064Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:43:46.381Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 316.685422ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 316.685422ms"}}
+[debug] [2024-01-10T14:43:46.381Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:43:46.381Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:43:46.381Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:43:46.381Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:45:44.034Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:44.033Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:45:44.035Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:44.033Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:45:44.035Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:45:44.037Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:45:44.037Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:45:44.037Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:45:44.038Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:45:44.599Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 560.902317ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 560.902317ms"}}
+[debug] [2024-01-10T14:45:44.599Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:45:44.599Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:45:44.599Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:45:44.599Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:45:54.099Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.099Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:45:54.099Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.099Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:45:54.099Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:45:54.100Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:45:54.100Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:45:54.100Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:45:54.100Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:45:54.114Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.114Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.099Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:45:54.115Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.099Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.114Z"],"workRunningCount":2}
+[debug] [2024-01-10T14:45:54.115Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:45:54.115Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:45:54.115Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:45:54.115Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:45:54.116Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:45:54.471Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 370.350965ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 370.350965ms"}}
+[debug] [2024-01-10T14:45:54.471Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:45:54.471Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:45:54.471Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:45:54.471Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:45:54.114Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:45:54.932Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 817.041513ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 817.041513ms"}}
+[debug] [2024-01-10T14:45:54.933Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T14:45:54.933Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:45:54.933Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:45:54.933Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:49:29.429Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.429Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:49:29.429Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.429Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:49:29.429Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:49:29.430Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:49:29.430Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:49:29.430Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:49:29.431Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[debug] [2024-01-10T14:49:29.434Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.434Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.429Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:49:29.437Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.429Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.434Z"],"workRunningCount":2}
+[debug] [2024-01-10T14:49:29.442Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:49:29.443Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:49:29.444Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:49:29.444Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:49:29.445Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:49:29.990Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 558.631082ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 558.631082ms"}}
+[debug] [2024-01-10T14:49:29.990Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:49:29.990Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:49:29.990Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:49:29.990Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:49:29.434Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:49:30.015Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 570.844742ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 570.844742ms"}}
+[debug] [2024-01-10T14:49:30.016Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T14:49:30.016Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:49:30.016Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:49:30.019Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:50:13.015Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:13.015Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:50:13.016Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:13.015Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:50:13.016Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:50:13.018Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:50:13.018Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:50:13.018Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:50:13.018Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:50:13.382Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 364.899903ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 364.899903ms"}}
+[debug] [2024-01-10T14:50:13.383Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:50:13.384Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:50:13.384Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:50:13.384Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:50:17.137Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.137Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:50:17.138Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.137Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:50:17.138Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:50:17.138Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:50:17.139Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:50:17.139Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:50:17.145Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[debug] [2024-01-10T14:50:17.147Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.147Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.137Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:50:17.147Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.137Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.147Z"],"workRunningCount":2}
+[debug] [2024-01-10T14:50:17.147Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:50:17.148Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:50:17.148Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:50:17.148Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:50:17.148Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:50:17.515Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 370.839746ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 370.839746ms"}}
+[debug] [2024-01-10T14:50:17.516Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:50:17.516Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:50:17.516Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:50:17.516Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:50:17.147Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:50:17.576Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 427.797172ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 427.797172ms"}}
+[debug] [2024-01-10T14:50:17.576Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T14:50:17.576Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:50:17.576Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:50:17.576Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:51:56.835Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:51:56.835Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:51:56.835Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:51:56.835Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:51:56.835Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:51:56.836Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:51:56.836Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:51:56.836Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:51:56.836Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:51:57.442Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 606.11515ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 606.11515ms"}}
+[debug] [2024-01-10T14:51:57.443Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:51:57.443Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:51:57.443Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:51:57.443Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:52:00.105Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.105Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:52:00.105Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.105Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:00.105Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:52:00.106Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:52:00.106Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:52:00.106Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:52:00.106Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:52:00.115Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.115Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.105Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:00.115Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.105Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.115Z"],"workRunningCount":2}
+[debug] [2024-01-10T14:52:00.115Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:52:00.115Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:52:00.116Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:52:00.116Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:52:00.116Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:52:00.633Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 526.58491ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 526.58491ms"}}
+[debug] [2024-01-10T14:52:00.633Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:52:00.633Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:52:00.633Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:52:00.633Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:00.115Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:00.999Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 882.91178ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 882.91178ms"}}
+[debug] [2024-01-10T14:52:01.000Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T14:52:01.000Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:52:01.000Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:52:01.000Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:52:40.147Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:40.147Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:52:40.147Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:40.147Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:40.147Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:52:40.148Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:52:40.148Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:52:40.148Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:52:40.148Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:52:40.853Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 704.671175ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 704.671175ms"}}
+[debug] [2024-01-10T14:52:40.853Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:52:40.853Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:52:40.853Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:52:40.855Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:52:48.073Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.073Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T14:52:48.073Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.073Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:48.073Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:52:48.074Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:52:48.074Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:52:48.074Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:52:48.074Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[debug] [2024-01-10T14:52:48.075Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.075Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.073Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:48.075Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.073Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.075Z"],"workRunningCount":2}
+[debug] [2024-01-10T14:52:48.075Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T14:52:48.076Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T14:52:48.078Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T14:52:48.079Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T14:52:48.079Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T14:52:48.777Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 703.039522ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 703.039522ms"}}
+[debug] [2024-01-10T14:52:48.778Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T14:52:48.778Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:52:48.778Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:52:48.778Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T14:52:48.075Z"],"workRunningCount":1}
+[debug] [2024-01-10T14:52:49.421Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1341.916708ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1341.916708ms"}}
+[debug] [2024-01-10T14:52:49.422Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T14:52:49.422Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T14:52:49.422Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T14:52:49.422Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:23:29.434Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.433Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:23:29.440Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.433Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:23:29.441Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:23:29.444Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:23:29.451Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:23:29.451Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:23:29.454Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[debug] [2024-01-10T15:23:29.464Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.463Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.433Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:23:29.465Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.433Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.463Z"],"workRunningCount":2}
+[debug] [2024-01-10T15:23:29.466Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:23:29.467Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:23:29.468Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:23:29.468Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:23:29.469Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T15:23:30.211Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 758.044877ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 758.044877ms"}}
+[debug] [2024-01-10T15:23:30.213Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T15:23:30.213Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:23:30.213Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:23:30.213Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:23:29.463Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:23:30.214Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 744.57204ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 744.57204ms"}}
+[debug] [2024-01-10T15:23:30.214Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T15:23:30.214Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:23:30.214Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:23:30.214Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:24:48.765Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:48.765Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:24:48.765Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:48.765Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:24:48.765Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:24:48.765Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:24:48.765Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:24:48.766Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:24:48.766Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T15:24:49.413Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 649.571333ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 649.571333ms"}}
+[debug] [2024-01-10T15:24:49.419Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T15:24:49.419Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:24:49.419Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:24:49.419Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:24:52.098Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.098Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:24:52.100Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.098Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:24:52.102Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:24:52.106Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:24:52.107Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:24:52.108Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:24:52.108Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[debug] [2024-01-10T15:24:52.114Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.114Z"],"queueLength":1,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.098Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:24:52.115Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.098Z","/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.114Z"],"workRunningCount":2}
+[debug] [2024-01-10T15:24:52.115Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:24:52.120Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:24:52.120Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:24:52.120Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:24:52.121Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T15:24:52.480Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 371.547448ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 371.547448ms"}}
+[debug] [2024-01-10T15:24:52.481Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T15:24:52.481Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:24:52.481Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:24:52.482Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:24:52.114Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:24:52.875Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 754.764217ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 754.764217ms"}}
+[debug] [2024-01-10T15:24:52.876Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: IDLE"}}
+[debug] [2024-01-10T15:24:52.876Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:24:52.876Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:24:52.876Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:26:13.655Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:26:13.655Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:26:13.655Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:26:13.655Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:26:13.656Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:26:13.656Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:26:13.657Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:26:13.657Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:26:13.658Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T15:26:14.448Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 790.394959ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 790.394959ms"}}
+[debug] [2024-01-10T15:26:14.448Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T15:26:14.448Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:26:14.449Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:26:14.449Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:26:48.774Z] [work-queue] {"queuedWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:26:48.774Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:26:48.774Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-6fc97/us-central1/api/payments/create-2024-01-10T15:26:48.774Z"],"workRunningCount":1}
+[debug] [2024-01-10T15:26:48.774Z] Accepted request POST /clone-6fc97/us-central1/api/payments/create?total=71700 --> us-central1-api
+[debug] [2024-01-10T15:26:48.775Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-10T15:26:48.775Z] [functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-6fc97/us-central1/api/payments/create?total=71700, mapping to path=/payments/create?total=71700"}}
+[debug] [2024-01-10T15:26:48.776Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2024-01-10T15:26:48.777Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: BUSY"}}
+[info] >  Payment received! 71700 {"user":"Payment received! 71700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment received! 71700"}}
+[debug] [2024-01-10T15:26:49.135Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 359.388135ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 359.388135ms"}}
+[debug] [2024-01-10T15:26:49.136Z] [worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ffdfd027-442e-4891-8fec-1face149b165]: IDLE"}}
+[debug] [2024-01-10T15:26:49.136Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-10T15:26:49.137Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-10T15:26:49.137Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-10T15:45:08.277Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: exited"}}
+[debug] [2024-01-10T15:45:08.290Z] [worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-558714c9-024e-4c45-af36-f0509d2ca4a8]: FINISHED"}}
+[debug] [2024-01-10T15:45:08.366Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[debug] [2024-01-10T15:45:08.447Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.454Z] Ignoring signal SIGHUP due to short delay of 89ms
+[debug] [2024-01-10T15:45:08.454Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.457Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.458Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.458Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.460Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.461Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.462Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.463Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.464Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.484Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.484Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.485Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.486Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.487Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.488Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.488Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.494Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.496Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.497Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.497Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.498Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.499Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.500Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.500Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.501Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.501Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.503Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.508Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.510Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.511Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.511Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.512Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.512Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.512Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.513Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-10T15:45:08.513Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 

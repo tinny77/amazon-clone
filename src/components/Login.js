@@ -13,12 +13,17 @@ function Login() {
 	const [password, setPassword] = useState('');
 	const [errormsg, setErrormsg] = useState('');
 
+	const autoFill = () => {
+		setEmail('customer@demo.it');
+		setPassword('customer');
+	};
+
 	const signIn = (e) => {
 		e.preventDefault();
 
 		signInWithEmailAndPassword(auth, email, password)
 			.then((userCredential) => {
-				const user = userCredential.user;
+				//const user = userCredential.user;
 				setErrormsg('');
 				navigate('/');
 			})
@@ -32,7 +37,7 @@ function Login() {
 
 		createUserWithEmailAndPassword(auth, email, password)
 			.then((userCredential) => {
-				const user = userCredential.user;
+				//const user = userCredential.user;
 				setErrormsg('');
 				navigate('/');
 			})
@@ -59,6 +64,7 @@ function Login() {
 				<img
 					className="login__logo"
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+					alt="Login"
 				/>
 			</Link>
 
@@ -91,7 +97,9 @@ function Login() {
 
 				{errormsg && <p class="login__error">{errormsg}</p>}
 
-				<p>You can login with customer@demo.it / customer.</p>
+				<p onClick={autoFill}>
+					You can login with customer@demo.it/customer (click to auto-fill).
+				</p>
 
 				<button className="login__registerButton" onClick={register} hidden>
 					Create your Amazon Account

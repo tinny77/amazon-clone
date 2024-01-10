@@ -1,0 +1,27 @@
+.order{
+     padding:40px;
+     margin:20px 0;
+     border:solid 1px lightgray;
+     background-color: white;
+     position:relative;
+}
+
+.order__id {
+     position:absolute;
+     top:40px;
+     right:20px;
+}
+
+.order__total {
+
+}
+
+.order .checkoutProduct__image {
+     width:80px;
+     height: 80px;
+}
+
+.order .checkoutProduct__title {
+     font-size:16px;
+     font-weight:600;
+}

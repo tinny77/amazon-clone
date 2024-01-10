@@ -30,7 +30,12 @@ function Subtotal() {
 				prefix={'$'}
 			/>
 
-			<button onClick={() => navigate('/checkout')}>Proceed to Checkout</button>
+			<button
+				onClick={() => navigate('/payment')}
+				disabled={basket.length === 0}
+			>
+				Proceed to Payment
+			</button>
 		</div>
 	);
 }

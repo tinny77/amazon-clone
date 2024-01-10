@@ -1,16 +1,39 @@
 import React from 'react';
 import './Home.css';
 import Product from './Product';
+import ReactSlidy from 'react-slidy';
+import 'react-slidy/lib/styles.css';
 
 function Home() {
+	const slider_images = [
+		{
+			url: 'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61GfWyQax7L._SX3000_.jpg',
+		},
+		{
+			url: 'https://m.media-amazon.com/images/I/71iSWrMO9IL._SX3000_.jpg',
+		},
+	];
 	return (
 		<div className="home">
 			<div className="home__container">
-				<img
-					className="home__image"
-					src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61GfWyQax7L._SX3000_.jpg"
-					alt=""
-				/>
+				<ReactSlidy infiniteLoop showArrows={true} slideSpeed={500}>
+					<img
+						className="home__image"
+						src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61GfWyQax7L._SX3000_.jpg"
+					/>
+					<img
+						className="home__image"
+						src="https://m.media-amazon.com/images/I/71iSWrMO9IL._SX3000_.jpg"
+					/>
+					<img
+						className="home__image"
+						src="https://m.media-amazon.com/images/I/61sCJraYf3L._SX3000_.jpg"
+					/>
+					<img
+						className="home__image"
+						src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Ie3JXGfVL._SX3000_.jpg"
+					/>
+				</ReactSlidy>
 
 				<div className="home__row">
 					<Product

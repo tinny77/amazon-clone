@@ -28,4 +28,12 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  cursor:pointer;
+}
+
+.subtotal > button:disabled {
+       background: #ccc;
+        border-color: #aaa #a0a0a0 #b9b9b9;
+        opacity:0.65;
+        cursor:not-allowed;
 }
